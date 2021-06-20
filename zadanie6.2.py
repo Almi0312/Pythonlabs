@@ -20,9 +20,9 @@ vegetables1 = int(input("сколько " + vegetable1 + ": "))
 vegetables2 = int(input("сколько " + vegetable2 + ": "))
 vegetables3 = int(input("сколько " + vegetable3 + ": "))
 
-print('{} {}({}, {})'.format(sum(vegetables1), vegetableLower(vegetable1), vegetableUpper(vegetable1), vegetableLower(vegetable1)))
-print('{} {}({}, {})'.format(sum(vegetables2), vegetableLower(vegetable3), vegetableUpper(vegetable2), vegetableLower(vegetable2)))
-print('{} {}({}, {})'.format(sum(vegetables3), vegetableLower(vegetable3), vegetableUpper(vegetable3), vegetableLower(vegetable3)))
+print('{} {}({}, {})'.format(sum(vegetables1), vegetableLower(vegetable1), vegetableUpper(vegetable1), vegetableTitle(vegetable1)))
+print('{} {}({}, {})'.format(sum(vegetables2), vegetableLower(vegetable3), vegetableUpper(vegetable2), vegetableTitle(vegetable2)))
+print('{} {}({}, {})'.format(sum(vegetables3), vegetableLower(vegetable3), vegetableUpper(vegetable3), vegetableTitle(vegetable3)))
 
 
 
