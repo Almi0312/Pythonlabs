@@ -18,7 +18,10 @@ elif do == "-":
 elif do == "/":
     number1 = float(input("ввести 1 значение: "))
     number2 = float(input("ввести 2 значение: "))
-    print(number1 / number2)
+    if number2 != 0:
+        print(number1 / number2)
+    else:
+        print("на 0 делить нельзя")
 elif do == "*":
     number1 = float(input("ввести 1 значение: "))
     number2 = float(input("ввести 2 значение: "))
@@ -35,7 +38,10 @@ elif do == "0":  #операция рандомное число, если на�
 elif do == "div":
     number1 = float(input("ввести 1 значение: "))
     number2 = float(input("ввести 2 значение: "))
-    print(number1//number2)
+    if number2 != 0:
+        print(number1 // number2)
+    else:
+        print("на 0 делить нельзя")
 elif do == "mod":
     number1 = float(input("ввести 1 значение: "))
     number2 = float(input("ввести 2 значение: "))
